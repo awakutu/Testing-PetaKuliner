@@ -1,0 +1,9 @@
+{
+    "places": [
+    {"lokasi" : [-7.938787, 112.589171], "sponsor" : "Greenbarn Eatery", "gambar" : "img/greenbarn.jpg","review" : "Sebuah Cafe dengan arsitektur Belanda dengan makanan yang bervariasi"},
+    {"lokasi" : [-7.938766, 112.588645], "sponsor" : "Punokawan Cafe", "gambar" : "img/punokawan.jpg", "review" : "Memiliki nama uni berasal dari tokoh pewayangan Jawa yakni Punokawan. Resto ini sangat bernuansa etnik"},
+    {"lokasi" : [-7.938676, 112.590356], "sponsor" : "Bukit Delight","gambar" : "img/bukit delight.jpg" ,"review" : "Memiliki konsep cafe modern, cafe ini sangat indah dimalam hari dengan tambahan eskrim yang menggoda dan sate taichan yang nikmat"},
+    {"lokasi" : [-7.938851, 112.589102], "sponsor" : "Es Bakar 99 Malang","gambar" : "img/es bakar 99.jpg", "review" : "Kedai cantik ini menyajikan beragam variasi kudapan manis berupa eskrim cantik"},
+    {"lokasi" : [-7.938830, 112.589611], "sponsor" : "Coklat Klasik Cafe","gambar" : "img/coklat klasik.jpg" , "review" : "Coklat Klasik menjadi tempat paling nyaman untuk bercerita dengan kawan maupun gebetan. Buka sampai tengah malam, kafe ini tak pernah sepi pengunjung" }
+    ]
+}

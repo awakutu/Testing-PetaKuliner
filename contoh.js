@@ -1,0 +1,1 @@
+let kota=["Surabaya","Probolinggo"]

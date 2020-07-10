@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+		
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Night Jamming</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="mygrid.css">
+
+	<link rel="manifest" href="manifest/manifest.json">
+
+	<script>
+			// Check that service workers are registered
+			if ('serviceWorker' in navigator) {
+			  // Use the window load event to keep the page load performant
+			  window.addEventListener('load', () => {
+				navigator.serviceWorker.register('/sw.js');
+			  });
+			}
+	</script>
+</head>
+<body>
+	<div class="container">
+			<header class="header">
+					<div class="header__inner">
+						<img class="header__logo" src="images/logo.png">
+						<h1 class="header__title">The Night Jamming</h1>
+					</div>
+			</header>
+			<div class='sidebar'>
+					
+			</div>
+			<div class='konten'>
+				<div class='subkonten'>Menghitung Angka
+					<p><a href="projek1/front.html">CALCULATOR</a></p>
+				</div>
+				<div class='subkonten'>Peta Kuliner</div>
+					<p><a href="projek2/peta.html">BUKA MAP</a></p>
+				<div class='subkonten'>Profil Saya</div>
+			</div>
+
+		<div class='footer'>
+				<p>Intan, Andre, Rizky Tri - 2018</p>
+		</div>
+
+
+	</div>
+	
+	
+
+	<!-- <div class="container">
+		<div class='menu'>Menu</div>
+		<div class='header'>Header</div>
+		<div class='sidebar'>SideBar</div>
+		<div class='konten'>
+			<div class='subkonten'>Menghitung Angka
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porta ligula nibh, ut interdum urna elementum sit amet. Phasellus id orci ac ipsum tincidunt feugiat. Praesent non felis sed nisl porttitor tempus. Mauris feugiat urna at mauris ultrices, non efficitur lacus condimentum. Pellentesque vitae molestie augue, id vulputate lorem. Curabitur eu suscipit lacus. Vivamus metus nulla, laoreet et rhoncus ut, scelerisque quis nunc. Curabitur sed rhoncus erat, id luctus sem. Etiam accumsan diam suscipit tortor aliquam, quis pharetra neque volutpat. Mauris iaculis, ligula ac euismod auctor, purus quam dignissim massa, at interdum velit justo vitae nisi. Nam tempor urna orci. Etiam luctus eleifend tempus. Vestibulum eu euismod mauris, id convallis ex. Praesent quis mi blandit, fermentum sapien vulputate, feugiat libero. Ut quis lectus vel lorem porttitor luctus sit amet et nisl. Donec lectus elit, egestas non commodo nec, scelerisque et dolor.</p>
+			</div>
+			<div class='subkonten'>Peta Kuliner</div>
+			<div class='subkonten'>Profil Saya</div>
+		</div>
+
+		<div class='footer'>Footer</div>
+	</div> -->
+</body>
+</html>
